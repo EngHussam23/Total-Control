@@ -76,3 +76,9 @@ Check out some screenshots of Total Control's interface below. These images show
 
         <img src="Total-Control/media/images/Screenshots/child/child_home.png" alt="Websites Activity Screen" width="250">
         <img src="Total-Control/media/images/Screenshots/child/child_menu.png" alt="Websites Activity Screen" width="250">
+
+## **Contact Me**
+
+Please feel free to contact me at [Hussam Alraggad](mailto:engraggad60@gmail.com) for any feedback or advice.
+
+Thank you for your interest in Total Control App!
