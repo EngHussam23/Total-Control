@@ -1,7 +1,7 @@
 # Total-Control
 
 
-![Total Control Logo](Total-Control/media/images/TotalControl_Logo.png)
+![Total Control Logo](media/images/TotalControl_Logo.png)
 
 > **Note:** This project is still in its early stages and not ready for launch. Any feedback or advice is welcomed.
 
@@ -39,19 +39,19 @@ Check out some screenshots of Total Control's interface below. These images show
 
 - ### Wlecome page, login & Sign Up
 
-    <img src="Total-Control/media/images/Screenshots/Welcome_page_login_sign_up.png" alt="Welcome Screen" width="250">
-    <img src="Total-Control/media/images/Screenshots/login.png" alt="Login Screen" width="250">
-    <img src="Total-Control/media/images/Screenshots/sign_up.png" alt="Sign Up Screen" width="250">
+    <img src="media/images/Screenshots/Welcome_page_login_sign_up.png" alt="Welcome Screen" width="250">
+    <img src="media/images/Screenshots/login.png" alt="Login Screen" width="250">
+    <img src="media/images/Screenshots/sign_up.png" alt="Sign Up Screen" width="250">
 
 
 - ## Personal Section
     - ### Applications Tab
 
-        <img src="Total-Control/media/images/Screenshots/personal_app.png" alt="Aplications Activity Screen" width="250">
+        <img src="media/images/Screenshots/personal_app.png" alt="Aplications Activity Screen" width="250">
 
     - ### Websites Tab ( Future work )
 
-        <img src="Total-Control/media/images/Screenshots/personal_web.png" alt="Websites Activity Screen" width="250">
+        <img src="media/images/Screenshots/personal_web.png" alt="Websites Activity Screen" width="250">
     
 - ## Family Section
     - ### Parent:
@@ -66,16 +66,16 @@ Check out some screenshots of Total Control's interface below. These images show
     >
     >       3- generate a connection key through the child's device.
     
-    1- <img src="Total-Control/media/images/Screenshots/child/child_reg1_a.png" alt="Websites Activity Screen" width="250">
+    1- <img src="media/images/Screenshots/child/child_reg1_a.png" alt="child_reg1_a" width="250">
 
-    2- <img src="Total-Control/media/images/Screenshots/child/child_reg1_b.png" alt="Websites Activity Screen" width="250">
+    2- <img src="media/images/Screenshots/child/child_reg1_b.png" alt="child_reg1_b" width="250">
 
-    3- <img src="Total-Control/media/images/Screenshots/child/child_reg2.png" alt="Websites Activity Screen" width="250">
+    3- <img src="media/images/Screenshots/child/child_reg2.png" alt="child_reg2" width="250">
 
     - ### Child
 
-        <img src="Total-Control/media/images/Screenshots/child/child_home.png" alt="Websites Activity Screen" width="250">
-        <img src="Total-Control/media/images/Screenshots/child/child_menu.png" alt="Websites Activity Screen" width="250">
+        <img src="media/images/Screenshots/child/child_home.png" alt="child_home" width="250">
+        <img src="media/images/Screenshots/child/child_menu.png" alt="child_menu" width="250">
 
 ## **Contact Me**
 
