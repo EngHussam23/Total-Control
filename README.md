@@ -1,9 +1,8 @@
 # Total-Control
 
+![Total Control Logo](readme_media/images/TotalControl_Logo.png)
 
-![Total Control Logo](media/images/TotalControl_Logo.png)
-
-> **Note:** This project is still in its early stages and not ready for launch. Any feedback or advice is welcomed.
+> **Note:** This project is still in its early stages and not ready for launch. Any feedback or peice of advice are welcomed.
 
 ## **Introduction**
 
@@ -20,7 +19,6 @@ With Total Control, parents can easily remove apps or edit their settings locall
 Total Control is still in the early stages of development and not yet ready for launch. Any feedback or suggestions for future updates are welcome.
 
 Note: Total Control is not intended to promote excessive monitoring or control of device usage, but rather to help promote healthy habits and responsible use of technology.
-
 
 ## **Technology Used**
 
@@ -39,24 +37,25 @@ Check out some screenshots of Total Control's interface below. These images show
 
 - ### Wlecome page, login & Sign Up
 
-    <img src="media/images/Screenshots/Welcome_page_login_sign_up.png" alt="Welcome Screen" width="250">
-    <img src="media/images/Screenshots/login.png" alt="Login Screen" width="250">
-    <img src="media/images/Screenshots/sign_up.png" alt="Sign Up Screen" width="250">
-
+    <img src="readme_media/images/Screenshots/Welcome_page_login_sign_up.png" alt="Welcome Screen" width="250">
+    <img src="readme_media/images/Screenshots/login.png" alt="Login Screen" width="250">
+    <img src="readme_media/images/Screenshots/sign_up.png" alt="Sign Up Screen" width="250">
 
 - ## Personal Section
-    - ### Applications Tab
 
-        <img src="media/images/Screenshots/personal_app.png" alt="Aplications Activity Screen" width="250">
+- ### Applications Tab
 
-    - ### Websites Tab ( Future work )
+    <img src="readme_media/images/Screenshots/personal_app.png" alt="Aplications_Activity_Screen" width="250">
 
-        <img src="media/images/Screenshots/personal_web.png" alt="Websites Activity Screen" width="250">
-    
+- ### Websites Tab ( Future work )
+
+    <img src="readme_media/images/Screenshots/personal_web.png" alt="Websites Activity Screen" width="250">
+
 - ## Family Section
-    - ### Parent:
-    Nothing different than the personal user except the device tab which is in progress, this tab shows the registerd children devices and their status locked, unlocked, ON or OFF.
 
+- ### Parent
+
+    Nothing different than the personal user except the device tab which is in progress, this tab shows the registerd children devices and their status locked, unlocked, ON or OFF.
 
     > **Note:** Registeration goes through three steps:
     >
@@ -65,17 +64,15 @@ Check out some screenshots of Total Control's interface below. These images show
     >       2- enter child details.
     >
     >       3- generate a connection key through the child's device.
-    
-    1- <img src="media/images/Screenshots/child/child_reg1_a.png" alt="child_reg1_a" width="250">
 
-    2- <img src="media/images/Screenshots/child/child_reg1_b.png" alt="child_reg1_b" width="250">
+    <img src="readme_media/images/Screenshots/child/child_reg1_a.png" alt="child_reg1_a" width="250">
+    <img src="readme_media/images/Screenshots/child/child_reg1_b.png" alt="child_reg1_b" width="250">
+    <img src="readme_media/images/Screenshots/child/child_reg2.png" alt="child_reg2" width="250">
 
-    3- <img src="media/images/Screenshots/child/child_reg2.png" alt="child_reg2" width="250">
+- ### Child
 
-    - ### Child
-
-        <img src="media/images/Screenshots/child/child_home.png" alt="child_home" width="250">
-        <img src="media/images/Screenshots/child/child_menu.png" alt="child_menu" width="250">
+    <img src="readme_media/images/Screenshots/child/child_home.png" alt="child_home" width="250">
+    <img src="readme_media/images/Screenshots/child/child_menu.png" alt="child_menu" width="250">
 
 ## **Contact Me**
 

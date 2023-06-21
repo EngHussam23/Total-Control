@@ -1,0 +1,32 @@
+# Flutter/Dart specific
+.dart_tool/
+build/
+*.flx
+*.dill
+*.gypi
+*.packages
+*.lock.json
+*.pub-cache
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+
+# iOS
+# CocoaPods
+Pods/
+
+# Android
+.gradle/
+build/
+local.properties
+
+# macOS
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+*~
