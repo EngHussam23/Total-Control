@@ -4,7 +4,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart' as fb_db;
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pro1/Home_Page/report/report-making-app-main/addnote.dart';
 import 'package:pro1/Home_Page/report/report-making-app-main/editnote.dart';
 import 'package:pro1/Theme/app_themes.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -44,7 +43,7 @@ class _DeviceState extends State<Device> {
     fb_db.DataSnapshot e = await ref2.get();
     data = e.value as Map<dynamic, dynamic>;
     appsData = data;
-    log('New Data:' + data.toString());
+    log('New Data:$data');
     setState(() {});
   }
 
@@ -80,7 +79,7 @@ class _DeviceState extends State<Device> {
                   onTap: () => Navigator.of(context).push(
                     MaterialPageRoute(
                       builder: (context) =>
-                          editnote(),
+                          const editnote(),
                     ),
                   ),
                   child: Column(

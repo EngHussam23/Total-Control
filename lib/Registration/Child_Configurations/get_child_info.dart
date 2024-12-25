@@ -49,9 +49,9 @@ class _GetChildInfoState extends State<GetChildInfo> {
                             const SizedBox(
                               height: 35,
                             ),
-                            Row(
+                            const Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: const [
+                              children: [
                                 Text(
                                   'Name:',
                                   style: TextStyle(
@@ -68,9 +68,9 @@ class _GetChildInfoState extends State<GetChildInfo> {
                                 ),
                               ],
                             ),
-                            Row(
+                            const Row(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
-                              children: const [
+                              children: [
                                 Text(
                                   'Age:',
                                   style: TextStyle(

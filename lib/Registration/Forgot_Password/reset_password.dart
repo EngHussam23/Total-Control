@@ -29,12 +29,12 @@ class _ResetPasswordState extends State<ResetPassword> {
 
   void showReset() => showDialog(
         context: context,
-        builder: (context) => AlertDialog(
-          title: const Text('reset password'),
+        builder: (context) => const AlertDialog(
+          title: Text('reset password'),
           content: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisSize: MainAxisSize.min,
-            children: const [
+            children: [
               Text(
                 'error occurred".',
                 style: TextStyle(

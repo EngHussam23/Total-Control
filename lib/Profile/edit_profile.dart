@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pro1/Theme/app_themes.dart';
-import 'package:google_nav_bar/google_nav_bar.dart';
 
 class EditProfilePage extends StatefulWidget {
   const EditProfilePage({Key? key}) : super(key: key);

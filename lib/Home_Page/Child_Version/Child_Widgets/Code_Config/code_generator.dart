@@ -5,7 +5,7 @@ import 'package:pro1/Registration/Child_Configurations/child_info.dart';
 import 'package:pro1/Theme/app_themes.dart';
 
 class CodeGenerator extends StatefulWidget {
-  CodeGenerator({
+  const CodeGenerator({
     super.key,
   });
 

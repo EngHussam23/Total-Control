@@ -1,14 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pro1/Registration/Forgot_Password/verify_email.dart';
 import 'package:pro1/Registration/account.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:pro1/Theme/app_themes.dart';
 import 'package:awesome_dialog/awesome_dialog.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import '../../Home_Page/Parent_Version/parent_home.dart';
-import '../../Home_Page/Single_User_Version/single_user_home.dart';
 import 'child_info.dart';
 
 
@@ -26,7 +23,7 @@ class _LoginState extends State<LoginFromChild> {
 
   bool hidden = true;
 
-  GlobalKey<FormState> formstate = new GlobalKey<FormState>();
+  GlobalKey<FormState> formstate = GlobalKey<FormState>();
   var mpassword, memail;
   final Themes _themes = Themes();
 
@@ -188,18 +185,16 @@ class _LoginState extends State<LoginFromChild> {
                           final ref = FirebaseDatabase.instance.ref();
                           final snapshot =
                           await ref.child('Users/$uid/User_Mode').get();
-                          if (response != null) {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_emailInput.text != '' &&
-                                    _passwordInput.text != '')
-                                    ? ((context) => const AppsListScreen())
-                                    : ((context) => const LoginFromChild()),
-                              ),
-                            );
-                          }
-                          // final isValid = formKey.currentState!.validate();
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_emailInput.text != '' &&
+                                  _passwordInput.text != '')
+                                  ? ((context) => const AppsListScreen())
+                                  : ((context) => const LoginFromChild()),
+                            ),
+                          );
+                                                  // final isValid = formKey.currentState!.validate();
                           //  if (isValid) {
                           //Navigator.pushReplacement(
                           //   context,

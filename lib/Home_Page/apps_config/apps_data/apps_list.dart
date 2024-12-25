@@ -9,8 +9,8 @@ class AppsListScreen extends StatefulWidget {
 }
 
 class _AppsListScreenState extends State<AppsListScreen> {
-  bool _showSystemApps = true;
-  bool _onlyLaunchableApps = false;
+  final bool _showSystemApps = true;
+  final bool _onlyLaunchableApps = false;
 
   @override
   Widget build(BuildContext context) {

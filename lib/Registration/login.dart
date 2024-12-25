@@ -24,7 +24,7 @@ class _LoginState extends State<Login> {
 
   bool hidden = true;
 
-  GlobalKey<FormState> formstate = new GlobalKey<FormState>();
+  GlobalKey<FormState> formstate = GlobalKey<FormState>();
   var mpassword, memail;
   final Themes _themes = Themes();
 
@@ -186,18 +186,16 @@ class _LoginState extends State<Login> {
                           final ref = FirebaseDatabase.instance.ref();
                           final snapshot =
                               await ref.child('Users/$uid/User_Mode').get();
-                          if (response != null) {
-                            Navigator.pushReplacement(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_emailInput.text != '' &&
-                                        _passwordInput.text != '')
-                                    ? (context) => swtch(snapshot.value)
-                                    : ((context) => const Login()),
-                              ),
-                            );
-                          }
-                          // final isValid = formKey.currentState!.validate();
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                              builder: (_emailInput.text != '' &&
+                                      _passwordInput.text != '')
+                                  ? (context) => swtch(snapshot.value)
+                                  : ((context) => const Login()),
+                            ),
+                          );
+                                                  // final isValid = formKey.currentState!.validate();
                           //  if (isValid) {
                           //Navigator.pushReplacement(
                           //   context,

@@ -8,7 +8,6 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(const MyApp());
-
   void main() async {
     WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp();
@@ -58,7 +57,7 @@ TODO: team tasks{
     - the DeviceApps package has it's uninstall feature
     - we don't need more than revealing what are the apps that the child has on their device and this shall be done in the apps tab
     - i have prepared some search results from chatGPT
-    - there are other packages that we need to use in our app that sserve the functionalities we want to build in our app:
+    - there are other packages that we need to use in our app that serve the functionalities we want to build in our app:
       - these are the expected features:
         1- Time limits and usage restrictions: Allow parents to set time limits for different activities
           such as screen time, internet usage, and app usage.

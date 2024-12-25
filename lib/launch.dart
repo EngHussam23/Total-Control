@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pro1/Registration/signup.dart' as t;
 import 'dart:async';
 
 import 'package:pro1/Theme/app_themes.dart';

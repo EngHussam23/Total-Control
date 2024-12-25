@@ -12,6 +12,8 @@ class addnote extends StatelessWidget {
   CollectionReference ref = FirebaseFirestore.instance.collection('report');
   final Themes _themes = Themes();
 
+  addnote({super.key});
+
   String getID(){
     String id = subject1.text;
     return id;

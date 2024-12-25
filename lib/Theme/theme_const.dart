@@ -17,14 +17,14 @@ ThemeData lightTheme = ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ButtonStyle(
-      elevation: MaterialStateProperty.all<double>(10),
-      backgroundColor: MaterialStateProperty.all<Color>(
+      elevation: WidgetStateProperty.all<double>(10),
+      backgroundColor: WidgetStateProperty.all<Color>(
         background3,
       ),
-      minimumSize: MaterialStateProperty.all<Size>(
+      minimumSize: WidgetStateProperty.all<Size>(
         const Size(200, 50),
       ),
-      shape: MaterialStateProperty.all<OutlinedBorder>(
+      shape: WidgetStateProperty.all<OutlinedBorder>(
         RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30),
         ),
@@ -65,17 +65,17 @@ ThemeData darkTheme = ThemeData(
   ),
   elevatedButtonTheme: ElevatedButtonThemeData(
     style: ButtonStyle(
-      elevation: MaterialStateProperty.all<double>(20),
-      shadowColor: MaterialStateProperty.all<Color>(
+      elevation: WidgetStateProperty.all<double>(20),
+      shadowColor: WidgetStateProperty.all<Color>(
         background2,
       ),
-      backgroundColor: MaterialStateProperty.all<Color>(
+      backgroundColor: WidgetStateProperty.all<Color>(
         background2,
       ),
-      minimumSize: MaterialStateProperty.all<Size>(
+      minimumSize: WidgetStateProperty.all<Size>(
         const Size(200, 50),
       ),
-      shape: MaterialStateProperty.all<OutlinedBorder>(
+      shape: WidgetStateProperty.all<OutlinedBorder>(
         RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30),
         ),

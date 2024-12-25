@@ -18,8 +18,8 @@ class AppsListScreen extends StatefulWidget {
 }
 
 class _AppsListScreenState extends State<AppsListScreen> {
-  bool _showSystemApps = true;
-  bool _onlyLaunchableApps = true;
+  final bool _showSystemApps = true;
+  final bool _onlyLaunchableApps = true;
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,7 @@ class _AppsListScreenContent extends StatefulWidget {
   final bool includeSystemApps;
   final bool onlyAppsWithLaunchIntent;
 
-  _AppsListScreenContent({
+  const _AppsListScreenContent({
     Key? key,
     this.includeSystemApps = true,
     this.onlyAppsWithLaunchIntent = false,
@@ -240,7 +240,7 @@ class _ChildInformationState extends State<ChildInformation> {
                               .ref()
                               .child("Users/$uid/Children");
 
-                          Random random = new Random();
+                          Random random = Random();
                           int randomNumber = random.nextInt(10000);
                           String randID = randomNumber.toString();
                           ref.child(randID).set({
@@ -301,7 +301,7 @@ class _ChildInformationState extends State<ChildInformation> {
                               context,
                               MaterialPageRoute(
                                 builder: (_name.text != '' && _age.text != '')
-                                    ? (context) => CodeGenerator()
+                                    ? (context) => const CodeGenerator()
                                     : ((context) =>
                                         const ChildInformation(null)),
                               ),

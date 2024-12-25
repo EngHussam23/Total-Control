@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pro1/Registration/Child_Configurations//child_info.dart';
 import 'package:pro1/Registration/account.dart';
 import 'package:pro1/Theme/app_themes.dart';
-import 'package:pro1/Theme/theme_const.dart';
 import 'Child_Configurations/ParentLoginFromChild.dart';
 import 'login.dart';
 

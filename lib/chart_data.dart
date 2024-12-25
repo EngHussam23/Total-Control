@@ -1,8 +1,6 @@
-import 'package:app_usage/app_usage.dart';
 import 'package:flutter/material.dart';
 import 'dart:core';
 
-import 'package:pro1/Home_Page/apps_config/apps_data/apps_list.dart';
 
 
 /*

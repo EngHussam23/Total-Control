@@ -3,7 +3,6 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 import 'package:pro1/Registration/signup.dart';
-import 'package:pro1/Theme/app_themes.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
@@ -25,7 +24,7 @@ class _SplashState extends State<Splash> {
       duration,
       () => Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (context) =>  SignUp(),
+          builder: (context) =>  const SignUp(),
         ),
       ),
     );
@@ -43,7 +42,7 @@ class _SplashState extends State<Splash> {
             width: double.infinity,
           ),
           splashIconSize: double.infinity,
-          nextScreen: SignUp(),
+          nextScreen: const SignUp(),
         ),
       ),
     );

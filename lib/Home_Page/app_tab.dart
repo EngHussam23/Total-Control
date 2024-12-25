@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:pro1/Home_Page/apps_config/apps_data/apps_list.dart';
 import 'package:pro1/chart_data.dart';
 import 'package:pro1/Registration/choose_mode.dart';

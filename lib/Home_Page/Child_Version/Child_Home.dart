@@ -157,9 +157,9 @@ class _ChildHomePageState extends State<ChildHomePage> {
                         const SizedBox(
                           height: 20,
                         ),
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               'Bed Time',
                               style: TextStyle(
@@ -174,9 +174,9 @@ class _ChildHomePageState extends State<ChildHomePage> {
                             ),
                           ],
                         ),
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               'Break Time',
                               style: TextStyle(
@@ -191,9 +191,9 @@ class _ChildHomePageState extends State<ChildHomePage> {
                             ),
                           ],
                         ),
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               'Do your homeworks',
                               style: TextStyle(
@@ -208,9 +208,9 @@ class _ChildHomePageState extends State<ChildHomePage> {
                             ),
                           ],
                         ),
-                        Row(
+                        const Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               'Play Time',
                               style: TextStyle(

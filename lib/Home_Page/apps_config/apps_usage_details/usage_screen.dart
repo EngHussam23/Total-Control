@@ -92,7 +92,7 @@ class _UsageSummaryScreenState extends State<UsageSummaryScreen> {
                   ),
                   center: Text(
                     "${(calulateTimeConsumedPercentage(_infos[index].usage.inSeconds) * 100).toInt()} %",
-                    style: new TextStyle(fontSize: 12.0),
+                    style: const TextStyle(fontSize: 12.0),
                   ),
                   barRadius: const Radius.circular(25),
                   backgroundColor: Colors.grey,

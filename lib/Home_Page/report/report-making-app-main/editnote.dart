@@ -1,13 +1,10 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:device_apps/device_apps.dart';
 import 'package:flutter/material.dart';
-import 'package:pro1/Home_Page/Parent_Version/parent_home.dart';
 import 'package:pro1/Home_Page/device_tab.dart';
-import 'package:pro1/Home_Page/report/report-making-app-main/report.dart';
 import 'package:pro1/Theme/app_themes.dart';
 
 class editnote extends StatefulWidget {
-  editnote();
+  const editnote({super.key});
 
   @override
   _editnoteState createState() => _editnoteState();
